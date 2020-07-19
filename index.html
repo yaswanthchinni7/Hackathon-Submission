@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
     <title>Hello, world!</title>
     <style type="text/css">
     .box{
@@ -20,17 +23,17 @@
   <body data-spy="scroll" data-target=".navbar" data-offset="50" class="bg-warning" > 
     <br>
     <!---navigation bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand mr-auto" href="#">
-          <img src="images/logo2.jpg" width="30" height="30" class="d-inline-block align-top"class="img-fluid ml-3" alt="" loading="lazy">HEVENLY</a>
+          <img src="images/logo1.png" width="40" height="30" class="d-inline-block align-top"class="img-fluid ml-3" alt="" loading="lazy">HEVENLY</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" >
           <div class="menu-bar"> <span class="navbar-toggler-icon"></span></div>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#Home"><span class="fa fa-home fa-lg">(current)</span>Home </a>
+              <a class="nav-link" href="#Home"><span class="fa fa-home fa-lg"></span>Home </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#About-section"><span class="fa fa-info fa-lg"></span>About</a>
@@ -50,11 +53,13 @@
              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#faq-section"><span class="fa fa-faq fa-lg"></span>FAQs</a>
-              
+              <a class="nav-link" href="#faq-section"><span class="fa fa-faq fa-lg"></span>FAQs</a>  
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact-section"><span class="fa fa-contact fa-lg"></span>contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#location"><span class="fa fa-contact fa-lg"></span>location</a>
             </li>
    
           </ul>
@@ -62,45 +67,48 @@
       </div>
       
     </nav>
-    <br>
-    <br>
+    
+  
 
     <!--banner-->
-  <div id="Home" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:685px" class="container-sm bg-dark">
-    
-    <section class="banner-area relative bg-warning" id="home">
+   <div id="Home" class="container-fluid bg-warning" style="padding-top:0px;padding-bottom:70px" class="container-fluid bg-dark">
+      <div id="carouselExampleSlidesOnly" class="carousel slide container-fluid" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/1.jpg" class="d-block w-100" alt="...">
+         </div>
+         <div class="carousel-item">
+           <img src="images/ed.jpg" class="d-block w-100" alt="...">
+         </div>
+         <div class="carousel-item">
+           <img src="images/index.jpg" class="d-block w-100" alt="...">
+         </div>
+        </div>
+      </div>
+    </div>
+    <!--<section class="banner-area relative bg-warning" id="home">
       <div class="overlay overlay-bg bg-white"></div>
       <div class="container bg-warning">
      
         <div class="row fullscreen alin-item-center justify-content-container" style="height: 500px;">
           <div class="banner-content col-12 col-xl-12">
-            <div id="carouselExampleSlidesOnly" class="carousel slide container-fluid" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/ed.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/index.jpg" class="d-block w-100" alt="...">
-                </div>
-              </div>
+           
             </div>
-                    
+        </div>-->
+         <div id="About-section" class="container-fluid bg-warning" style="padding-top:35px;padding-bottom:70px"  class="container-sm bg-dark">          
            <div class="jumbotron text-center">
              <h1><strong>HEVENLY</strong></h1>
              <p>RESTORENT</p> 
-             <p class="text-warning">->"The Entry Of Heven"<-</p>
+             <p class="text-warning">->"The Entry Of Heaven"<-</p>
              <div id="About-section" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px"  class="container-sm bg-dark">
               <h1>About</h1>
               <p>here we are providing wide range of verities it looks like a food heven we serve food as delisious as suchu  as u feel it like boon your tastbuds blast off by tasting our chenies food you go mad by getting the wide verity of food u should attend our buffet it has an wide rang if collection of veg/non-veg your stomech will blast we have many branches all over the world we providr discount for the cousteners membership program</p></div>
            </div>
           </div>
          </div>
-       </div>
+     <!--  </div>
       </div>
-   </section>
+   </section>-->
   </div>
   
     
@@ -112,13 +120,13 @@
   <!--Meanu card-->  
   <div id="meanu-section" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px" class="container-sm bg-danger">
     <h1>Menu card</h1>
-    <img src="images/Blue & Pink Pastel Lunch Menu.jpg" class="col-sm-8 col-lg-9 col-xl-10">
+    <img src="images/Blue & Pink Pastel Lunch Menu.jpg"    class="col-sm-8 col-lg-9-center col-xl-10-center col-md-9-center">
        
         
   </div>
 
   <!--jucice-->  
-  <div id="section43" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px" class="container-sm bg-danger">
+  <div id="section43" class="container-sm bg-warning" style="padding-top:70px;padding-bottom:70px" class="container-sm bg-danger">
     <h1>juice</h1>
     <div id="carouselExampleCaptions" class="carousel slide d-sm-block" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -131,14 +139,14 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/JUCE/j1.jpeg" class="d-block w-100" alt="...">
+          <img src="images/JUCE/j1.jpeg" height="650px" width="550px" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-sm-block">
             <h5>fresh lime</h5>
             <p>the imported limes are used the the juice make u refresh and feel good it make u free and like in heven</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/JUCE/j2.jpeg" class="d-block w-100" alt="...">
+          <img src="images/JUCE/j2.jpeg" height="650px" width="550px" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-sm-block">
             <h5>sprincle water</h5>
             <p>the water that is imported from the worlds fresh lake the tast of water is as good as such that it make you the feel in gods hart</p>
@@ -477,74 +485,104 @@
     <!---footer
     <div id="footer" class="page-footer font-sm color-dark">-->
     <footer id="footer" class="page-footer font-sm color-dark">
-      <div style="background-color: grey;">
+      <div style="background-color: rgb(194, 196, 185);">
         <div class="container">
           <div class="row py-4 d-flex align-item-center">
             <div class="col-sm-4 col-md-6 col-lg-5 text-center text-md-left md-4 mb-md-1">
               <h6 class="mb-0">connect with us on social websites</h6>
             </div>
             <div class="col-md-6 col-lg-7 text-center text-md-right">
-              <a class="fb-ic">
-                <i class="fab fa-facebook-f white-text mr-4"></i>
-              </a>
-              <a class="ins-ic">
+              <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              
+                <a href="https://www.facebook.com/" class="btn btn-outline-primary btn-sm active" role="button" aria-pressed="true">Facebook</a>  
+                <a href="https://www.instagram.com/" class="btn btn-outline-danger btn-sm active" role="button" aria-pressed="true">Instagram</a>
+                <a href="https://twitter.com/" class="btn btn-outline-info btn-sm active" role="button" aria-pressed="true">Twitter</a>
+              </div>
+                
+              
+             <!-- <a class="ins-ic">
                 <i class=" fab fa-instagram white-text"></i>
-              </a>
+              </a>-->
             </div>
           </div>
         </div>
-      </div>
-      <div class="container-sm text-center text-md-left mt-5">
-        <div class="row mt-3">
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <h6 class="font-weight bold">HEVENLY</h6>
-          <HR CLASS="deep-white accent-2 mb-4 mt-0 d-inline-block auto" style="width: 60px";>
-          <p>
-            <a href="#">HEVENLY foods</a>
-          </p>
-          <p>
-            <a href="#">foodies</a>
-          </p>
-          <p>
-            <a href="#">tifins</a>
-          </p>
-          <p>
-            <a href="#">juces</a>
-         </p>
-        </div>
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="font-weight-bold">links</h6>
-          <hr class="deep-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <a href="#">HEVENLY foods</a>
-          </p>
-          <p>
-            <a href="#">market</a>
-          </p>
-          <p>
-            <a href="#">order</a>
-          </p>
-        </div>
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="font-weight-bold">contact</h6>
-          <hr class="deep-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <i class="fas fa-home mr-3">mumbai,456728,IN</i>
-          </p>
-          <p>
-            <i class="fas fa-envelop mr-3">hevenlyfoods@gmail.com</i>
-          </p>
-          <p>
-            <i class="fas fa-phone mr-3">568-659-359</i>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright text-center py-3">copyright:
-      <a href="">bootstrap.com</a>
+        
+        <div class="container text-center text-md-left mt-5">
 
-    </div>
-  </footer>
+          <!-- Grid row -->
+          <div class="row mt-3">
+      
+            <!-- Grid column -->
+            <div id="location"class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+      
+              <!-- Content -->
+              <h6 class="text-uppercase font-weight-bold">location</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>gr floor,srinath delex complex</p>
+              <p> mumbai</p>
+              <p>Maharastra</p>
+              <p>400063</p>
+      
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div id="faq-section" class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="font-weight bold">FAQ's</h6>
+            <HR CLASS="deep-white accent-2 mb-4 mt-0 d-inline-block auto" style="width: 60px";>
+            <p>mail us on
+              <a href="#">hvfoods#@gmail.com</a>
+            </p>
+            <p>message on
+              <a href="#">instagram</a>
+            </p>
+            <p>message on
+               <a href="#">Facebook</a>
+           </p>
+           <p>call us 
+               <a href="#">+123-456-789</a>
+           </p>
+         </div>
+       </div>
+        
+        <div class="container-sm text-center text-md-left mt-5">
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="font-weight-bold">links</h6>
+            <hr class="deep-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a href="#">HEVENLY foods</a>
+            </p>
+            <p>
+             <a href="#">market</a>
+            </p>
+            <p>
+              <a href="#">order</a>
+            </p>
+          </div>  
+        </div>
+        <div class="container-sm text-center text-md-left mt-5">
+          <div id="contact-section" class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="font-weight-bold">contact</h6>
+            <hr class="deep-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <i class="fas fa-home mr-3">mumbai,456728,IN</i>
+            </p>
+            <p>
+              <i class="fas fa-envelop mr-3">hevenlyfoods@gmail.com</i>
+            </p>
+            <p>
+              <i class="fas fa-phone mr-3">568-659-359</i>
+            </p>
+         </div>
+        </div>
+    
+        <div class="footer-copyright text-center py-3">copyright:
+          <a href="">bootstrap.com</a>
+
+        </div>
+      </div>
+    </footer>
 
 
 
